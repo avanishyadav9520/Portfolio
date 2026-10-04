@@ -1,19 +1,21 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Avanish Yadav | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <nav>
-    <div class="logo">AVANISH YADAV<span>.</span></div>
+    <div class="logo">AVANISH YADAV </div>
 
     <div class="nav-links">
         <a href="#home">Home</a>
@@ -25,18 +27,14 @@
 </nav>
 
 
-<!-- HOME -->
 <section id="home" class="home">
 
     <div class="home-text">
-
         <p class="hello">HELLO, I'M</p>
 
         <h1>Avanish <span>Yadav</span></h1>
 
-        <h2>
-            <span id="typing"></span>
-        </h2>
+        <h2><span id="typing"></span></h2>
 
         <p class="intro">
             B.Tech Computer Science student passionate about
@@ -46,44 +44,31 @@
 
         <div class="buttons">
             <a href="#projects" class="btn">View Projects</a>
-
-            <a href="#contact" class="btn outline">
-                Contact Me
-            </a>
+            <a href="#contact" class="btn outline">Contact Me</a>
         </div>
-
     </div>
 
 
-    <!-- 3D CUBE -->
     <div class="cube-area">
 
+        <div class="rays">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
         <div class="cube">
-
-            <div class="face front">
-                AVANISH 
-            </div>
-
-            <div class="face back">
-                CSE
-            </div>
-
-            <div class="face right">
-                JAVA
-            </div>
-
-            <div class="face left">
-                WEB
-            </div>
-
-            <div class="face top">
-                CODE
-            </div>
-
-            <div class="face bottom">
-                DEV
-            </div>
-
+            <div class="face front">AVANISH</div>
+            <div class="face back">CSE</div>
+            <div class="face right">JAVA</div>
+            <div class="face left">WEB</div>
+            <div class="face top">CODE</div>
+            <div class="face bottom">DEV</div>
         </div>
 
     </div>
@@ -91,7 +76,6 @@
 </section>
 
 
-<!-- ABOUT -->
 <section id="about">
 
     <h2 class="section-title">About <span>Me</span></h2>
@@ -101,7 +85,7 @@
         <p>
             I am Avanish Yadav, a B.Tech Computer Science student.
             I enjoy building websites and learning new technologies.
-            I have experience working with HTML, CSS, JavaScript and Java.
+            I have experience in Web Development, Java and MERN Stack.
         </p>
 
         <p>
@@ -114,47 +98,42 @@
 </section>
 
 
-<!-- SKILLS -->
 <section id="skills">
 
     <h2 class="section-title">My <span>Skills</span></h2>
 
     <div class="skills-container">
 
-        <div class="skill-card">
-            <div class="skill-icon">🌐</div>
-            <h3>HTML</h3>
-            <p>Web Structure</p>
-        </div>
-
-        <div class="skill-card">
-            <div class="skill-icon">🎨</div>
-            <h3>CSS</h3>
-            <p>Design & Animation</p>
-        </div>
-
-        <div class="skill-card">
-            <div class="skill-icon">⚡</div>
-            <h3>JavaScript</h3>
-            <p>Interactive Websites</p>
-        </div>
-
-        <div class="skill-card">
-            <div class="skill-icon">☕</div>
-            <h3>Java</h3>
-            <p>Programming</p>
-        </div>
-
-        <div class="skill-card">
-            <div class="skill-icon">💻</div>
+        <div class="skill-card web">
+            <div class="skill-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
             <h3>Web Development</h3>
-            <p>Frontend Development</p>
+            <p>Modern and responsive website development</p>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-icon">🐙</div>
+        <div class="skill-card java">
+            <div class="skill-icon">
+                <i class="fa-brands fa-java"></i>
+            </div>
+            <h3>Java</h3>
+            <p>Programming and application development</p>
+        </div>
+
+        <div class="skill-card mern">
+            <div class="skill-icon">
+                <i class="fa-brands fa-node-js"></i>
+            </div>
+            <h3>MERN Stack</h3>
+            <p>MongoDB, Express.js, React and Node.js</p>
+        </div>
+
+        <div class="skill-card github">
+            <div class="skill-icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
             <h3>GitHub</h3>
-            <p>Version Control</p>
+            <p>Version control and project hosting</p>
         </div>
 
     </div>
@@ -162,23 +141,18 @@
 </section>
 
 
-<!-- PROJECTS -->
 <section id="projects">
 
     <h2 class="section-title">My <span>Projects</span></h2>
 
     <div class="projects-container">
 
-
-        <!-- PROJECT 1 -->
         <div class="project-card">
 
-            <div class="project-number">
-                01
-            </div>
+            <div class="project-number">01</div>
 
-            <div class="project-icon">
-                🏥
+            <div class="project-icon hospital">
+                <i class="fa-solid fa-hospital"></i>
             </div>
 
             <h3>Hospital Management System</h3>
@@ -189,26 +163,24 @@
                 patient information and healthcare features.
             </p>
 
-            <a
-                href="https://avanishyadav9520.github.io/Health-Care-Centre-/"
-                target="_blank"
-                class="live-btn"
-            >
-                🚀 Go Live
+            <a href="https://avanishyadav9520.github.io/Health-Care-Centre-/"
+               target="_blank"
+               class="live-btn">
+
+                <i class="fa-solid fa-rocket"></i>
+                Go Live
+
             </a>
 
         </div>
 
 
-        <!-- PROJECT 2 -->
         <div class="project-card">
 
-            <div class="project-number">
-                02
-            </div>
+            <div class="project-number">02</div>
 
-            <div class="project-icon">
-                💻
+            <div class="project-icon portfolio">
+                <i class="fa-solid fa-laptop-code"></i>
             </div>
 
             <h3>Personal Portfolio</h3>
@@ -218,11 +190,11 @@
                 created using HTML, CSS and JavaScript.
             </p>
 
-            <a
-                href="#home"
-                class="live-btn"
-            >
-                🚀 Go Live
+            <a href="#home" class="live-btn">
+
+                <i class="fa-solid fa-rocket"></i>
+                Go Live
+
             </a>
 
         </div>
@@ -232,52 +204,63 @@
 </section>
 
 
-<!-- CONTACT -->
 <section id="contact">
 
     <h2 class="section-title">Contact <span>Me</span></h2>
 
     <div class="contact-container">
 
-        <a
-            href="mailto:avanishyadav9520@gmail.com"
-            class="contact-card"
-        >
-            <div>📧</div>
+        <a href="mailto:avanishyadav9520@gmail.com"
+           class="contact-card email">
+
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
             <h3>Email</h3>
             <p>avanishyadav9520@gmail.com</p>
+
         </a>
 
 
-        <a
-            href="tel:9520933721"
-            class="contact-card"
-        >
-            <div>📱</div>
+        <a href="tel:9520933721"
+           class="contact-card phone">
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+
             <h3>Phone</h3>
             <p>9520933721</p>
+
         </a>
 
 
-        <a
-            href="https://github.com/avanishyadav9520"
-            target="_blank"
-            class="contact-card"
-        >
-            <div>🐙</div>
+        <a href="https://github.com/avanishyadav9520"
+           target="_blank"
+           class="contact-card github">
+
+            <div>
+                <i class="fa-brands fa-github"></i>
+            </div>
+
             <h3>GitHub</h3>
             <p>avanishyadav9520</p>
+
         </a>
 
 
-        <a
-            href="https://www.linkedin.com/in/avanish-yadav-043b05343?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-            target="_blank"
-            class="contact-card"
-        >
-            <div>💼</div>
+        <a href="https://www.linkedin.com/in/avanish-yadav-043b05343"
+           target="_blank"
+           class="contact-card linkedin">
+
+            <div>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
             <h3>LinkedIn</h3>
             <p>View Profile</p>
+
         </a>
 
     </div>
@@ -285,13 +268,8 @@
 </section>
 
 
-<!-- FOOTER -->
 <footer>
-
-    <p>
-        © 2026 Avanish Yadav | All Rights Reserved.
-    </p>
-
+    <p>© 2026 Avanish Yadav | All Rights Reserved.</p>
 </footer>
 
 
@@ -299,3 +277,4 @@
 
 </body>
 </html>
+```
